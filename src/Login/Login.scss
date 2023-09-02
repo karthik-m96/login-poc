@@ -12,7 +12,7 @@
     .login-head {
       text-align: center;
       img {
-        width: 80px;
+        width: 90px;
       }
     }
 
@@ -45,12 +45,17 @@
         width: 80px;
         height: 40px;
         background-color: #ff8551;
+        transition: background-color 856ms ease-out;
         color: white;
         padding: 5px;
         border-radius: 5px;
         cursor: pointer;
         outline: none;
         border: none;
+
+        &:hover {
+          background-color: #dd5216;
+        }
       }
     }
   }
